@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Demo001Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Demo001Application.class, args);
+
+        SpringApplication.run(Demo001Application.class, args);//模拟冲突
     }
 
 }
