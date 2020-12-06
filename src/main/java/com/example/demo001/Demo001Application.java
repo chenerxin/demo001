@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Demo001Application {
 
     public static void main(String[] args) {
-        //再模拟222一下
-        SpringApplication.run(Demo001Application.class, args);//模1111拟冲突11111
+        //再模拟一下
+        SpringApplication.run(Demo001Application.class, args);//模拟冲突11111神奇
 
-        // 这里还有222冲突呢 制造冲突
+        // 这里还有冲突呢 制造冲突
 
-        // 自己文件222多了应该没问题吧
+        // 自己文件多了应该没问题吧
     }
 
 }
