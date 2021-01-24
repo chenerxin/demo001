@@ -2,18 +2,17 @@ package com.example.demo001;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
+@ServletComponentScan
 public class Demo001Application {
 
     private String master;
     public static void main(String[] args) {
         //再模拟一下
-        SpringApplication.run(Demo001Application.class, args);//模拟冲突11111神奇
+        SpringApplication.run(Demo001Application.class, args);
 
-        // 1111222222222这里还有冲突呢 33333333
-
-        // 自己文件多了master应该没问题吧
     }
 
 }
